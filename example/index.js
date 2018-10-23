@@ -63,7 +63,7 @@ const _execute = async(() => {
         predefined.detectH1Tag,
         {rule: config.ruleCategory.CHILD_TAG_WITH_ATTRIBUTE, tag: 'meta', attr: 'name', value: 'robots'}
     ];
-    detector.detect(rule);
+    await(detector.detect(rule));
 });
 
 _execute()
