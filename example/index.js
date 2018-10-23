@@ -14,8 +14,7 @@ const fs = require('fs');
 
 const _execute = async(() => {
 
-    const ras = fs.createReadStream(global.__BASE__ + 'static/index.html')
-    .setEncoding("utf8");
+    const ras = fs.createReadStream(global.__BASE__ + 'static/index.html').setEncoding("utf8");
     const was = fs.createWriteStream(global.__BASE__ + 'static/was.txt')
     
     // Input & output setting
@@ -49,7 +48,7 @@ const _execute = async(() => {
 
     const detector = new Detector();
 
-    // Rule define
+    // Rule defined
     // {rule: config.ruleCategory.TAG_WITH_ATTRIBUTE, tag: 'a', attr: 'rel'}
     // {rule: config.ruleCategory.CHILD_TAG_WITH_ATTRIBUTE, parent: 'head', tag: 'meta', attr: 'name', value: 'keywords'}
     // {rule: config.ruleCategory.TAG_LIMIT_COUNT, tag: 'strong', count: 15}
@@ -72,5 +71,7 @@ _execute()
         console.log('success');
     })
     .catch(function(err) {
+        console.log('handle error');
         console.log(err);
     });
+
