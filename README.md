@@ -132,8 +132,8 @@ Rule key                                | Description
 **detectTitleInHead**                   | In <head> tag, detect if header doesn’t have <title> tag
 **detectMetaWithDescriptionInHead**     | In <head> tag, detect if header doesn’t have <meta name=“descriptions” ... /> tag
 **detectMetaWithKeywordsInHead**        | In <head> tag, detect if header doesn’t have <meta name=“keywords” ... /> tag
-**detectStrongTag**                     | Detect if there’re more than 15 <strong> tag in HTML
-**detectH1Tag**                         | Detect if a HTML have more than one <H1> tag
+**detectStrongTag**                     | Detect if there’re more than 15 <strong&gt; tag in HTML
+**detectH1Tag**                         | Detect if a HTML have more than one <H1&gt; tag
 
 #### Customized Rules
 There are three types of rule can be customized.
