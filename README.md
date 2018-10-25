@@ -76,8 +76,22 @@ execute()
 });
 ```
 
+Check the result on Console
+
+```bash
+There are 3 <a> tag without rel attribute.
+There are 1 <img> tag without alt attribute.
+Valid
+Valid
+There is no <meta> tag with name attribute and keywords value.
+Valid
+Valid
+There is no <meta> tag with name attribute and robots value.
+success
+```
+
 ### Input Settings
-You can detect Html file from a URL or a readable stream. The default input is an example html. 
+You can detect Html file from a URL or a readable stream. The default input is an example html in `static/`.
 
 
 * File path
