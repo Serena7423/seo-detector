@@ -1,5 +1,10 @@
 # seo-detector
 
+[![Version][npm-image]][npm-link]
+
+[npm-image]: https://img.shields.io/npm/v/seo-rule-detector.svg
+[npm-link]: https://npmjs.org/package/seo-rule-detector
+
 This package can validate pre-defined or customized SEO rules for web pages. The detector can handle streams or file input and supports streams, file, or console for output.
 
 ## Installation
@@ -185,3 +190,6 @@ To run the tests:
 ```bash
 npm test
 ```
+
+## License
+MIT
