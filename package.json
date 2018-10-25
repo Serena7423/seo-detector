@@ -1,8 +1,8 @@
 {
   "name": "seo-detector",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "description": "This package can validate pre-defined or customized SEO rules for web pages.",
   "scripts": {
     "test": "mocha"
   },
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/Serena7423/seo-detector.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Serena Cheng",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Serena7423/seo-detector/issues"
   },
