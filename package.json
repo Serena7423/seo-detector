@@ -1,5 +1,5 @@
 {
-  "name": "seo-detector",
+  "name": "seo-rule-detector",
   "version": "1.0.0",
   "main": "index.js",
   "description": "This package can validate pre-defined or customized SEO rules for web pages.",

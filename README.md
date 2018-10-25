@@ -5,7 +5,7 @@ This package can validate pre-defined or customized SEO rules for web pages. The
 ## Installation
 
 ```bash
-npm install --save seo-detector
+npm install --save seo-rule-detector
 ```
 
 ## Usage
