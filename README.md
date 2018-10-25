@@ -12,7 +12,7 @@ npm install --save seo-detector
 
 Here's an example in NodeJS using Promises with async/await:
 
-* With NodeJS (>= 8)
+* With NodeJS (>= 7.6)
 ```js
 const Detector = require('seo-detector');
 const detector = new Detector();
@@ -38,7 +38,7 @@ const rule = [
 })();
 ```
 
-* With NodeJS (< 8)
+* With NodeJS (< 7.6)
 ```js
 const async = require('asyncawait/async');
 const await = require('asyncawait/await');
