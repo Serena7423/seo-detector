@@ -96,8 +96,8 @@ success
 ```
 
 ### Input Settings
-You can detect Html file from a URL or a readable stream. The default input is an example html in `static/`.
-
+You can detect Html file from a URL or a readable stream. 
+Using `input` option, you can specify input mode. The default input is an example html in `static/`.
 
 * File path
 ```js
@@ -114,8 +114,20 @@ input: {
 }
 ```
 
+Pass the option to Constructor.
+
+```js
+const detector = new Detector({
+    input: {
+        mode: config.inputMode.FILE,
+        source: './static/index.html'
+    }
+});
+```
+
 ### Output Settings
-The detection result can be exported into a file, a writable stream, or console. The default output is console mode.  
+The detection result can be exported into a file, a writable stream, or console. Using `output` option, you can specify output mode. The default output is console mode.  
+
 * File path
 ```js
 output: {
@@ -136,6 +148,17 @@ output: {
     mode: config.outputMode.CONSOLE,
     destination: ''
 }
+```
+
+Pass the option to Constructor.
+
+```js
+const detector = new Detector({
+    output: {
+        mode: config.outputMode.CONSOLE,
+        destination: ''
+    }
+});
 ```
 
 ### Rules Configuration
